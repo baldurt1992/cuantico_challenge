@@ -8,9 +8,21 @@ La aplicación utiliza Laravel 13, Vue 3, TypeScript, Inertia, Nuxt UI y SQLite.
 
 **Live:** [cuantico.baldurdev.com](https://cuantico.baldurdev.com)
 
-El enlace permite probar la aplicación y el asistente con Gemini. La API key de Google está configurada exclusivamente en el servidor; el evaluador no necesita introducir una clave para usar el chat de la demo. Las credenciales de acceso se comparten por separado y son distintas de las cuentas locales indicadas más abajo.
+El enlace permite probar la aplicación y el asistente con Gemini. La API key de Google está configurada exclusivamente en el servidor; el evaluador no necesita introducir una clave para usar el chat de la demo.
 
 Versión de la aplicación desplegada: [aabf5bf](https://github.com/baldurt1992/cuantico_challenge/tree/aabf5bfa8e3d572890b20c5db2503028230534df).
+
+### Accesos de la demo en vivo
+
+Estas credenciales corresponden a [cuantico.baldurdev.com](https://cuantico.baldurdev.com). Son cuentas de evaluación con datos sintéticos. Para revisar el recorrido completo, se utiliza el operador.
+
+| Rol                     | Correo                   | Contraseña de la demo      | Alcance                                                         |
+| ----------------------- | ------------------------ | -------------------------- | --------------------------------------------------------------- |
+| Lector                  | `lector@cuantico.test`   | `fiEb0tUjKfOsNWHjIo7eewA9` | Tienda La 80 y Casa Botánica; reportes, entregas y chat.        |
+| Operador                | `operador@cuantico.test` | `wLPGXkVxCWAXU2l3yV0i1jkZ` | Los tres comercios; también permite crear y completar entregas. |
+| Lector de otro comercio | `cliente@cuantico.test`  | `fiEb0tUjKfOsNWHjIo7eewA9` | Solo Panadería del Sur; permite comprobar el aislamiento.       |
+
+Las contraseñas locales de la sección siguiente son distintas y no sirven para entrar a la demo en vivo.
 
 ## Arranque local
 
@@ -42,7 +54,7 @@ PREPARE_ONLY=1 NON_INTERACTIVE=1 ./scripts/start.sh
 
 La última opción solo prepara el entorno: no pide clave ni deja un servidor abierto. Este script es para local; rechaza otro `APP_ENV` o una conexión distinta de SQLite. El primer arranque depende del equipo y las descargas.
 
-## Acceso y recorrido de evaluación
+## Acceso local y recorrido de evaluación
 
 | Rol                     | Correo                   | Contraseña local    | Alcance inicial                                        |
 | ----------------------- | ------------------------ | ------------------- | ------------------------------------------------------ |
