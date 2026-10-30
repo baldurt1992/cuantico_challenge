@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+/vendor/
+/node_modules/
+/public/build/
+/public/hot
+/storage/*.key
+/storage/framework/*.hash
+/storage/framework/*.sqlite*
+/auto-imports.d.ts
+/components.d.ts
+/.phpunit.cache/
+/.phpunit.result.cache
+/playwright-report/
+/test-results/
+/coverage/
