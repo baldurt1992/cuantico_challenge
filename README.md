@@ -4,6 +4,14 @@ Esta app recibe los eventos de una entrega, reconstruye lo que pasó y calcula s
 
 La aplicación utiliza Laravel 13, Vue 3, TypeScript, Inertia, Nuxt UI y SQLite. Para la prueba se confirmó libertad de stack. Nuxt UI funciona aquí con Vue y Vite; no hace falta ejecutar un servidor Nuxt.
 
+## Demo en vivo
+
+**Live:** [cuantico.baldurdev.com](https://cuantico.baldurdev.com)
+
+El enlace permite probar la aplicación y el asistente con Gemini. La API key de Google está configurada exclusivamente en el servidor; el evaluador no necesita introducir una clave para usar el chat de la demo. Las credenciales de acceso se comparten por separado y son distintas de las cuentas locales indicadas más abajo.
+
+Versión de la aplicación desplegada: [aabf5bf](https://github.com/baldurt1992/cuantico_challenge/tree/aabf5bfa8e3d572890b20c5db2503028230534df).
+
 ## Arranque local
 
 Desde la raíz del proyecto, ejecuta:
